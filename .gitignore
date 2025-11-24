@@ -1,0 +1,5 @@
+*.xbkp
+*.bak
+**/rendercache/
+Backup/
+*.fseq

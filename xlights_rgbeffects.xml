@@ -54,7 +54,9 @@
   <views/>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="Roof Loop" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Roof L,Roof R" centrex="514.408813" centrey="484.882263" centreDefined="0" centreMinx="366" centreMiny="438" centreMaxx="662" centreMaxy="530"/>
+    <modelGroup selected="0" name="Roof Loop" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Roof L,Roof R" centrex="520.917480" centrey="484.839722" centreDefined="0" centreMinx="379" centreMiny="438" centreMaxx="662" centreMaxy="530"/>
+    <modelGroup selected="0" name="Windows" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Window L1,Window L2,Window L3,Window R1,Window R2,Window R3" centrex="519.614197" centrey="404.933197" centreDefined="0" centreMinx="395" centreMiny="385" centreMaxx="644" centreMaxy="423"/>
+    <modelGroup selected="0" name="Verticals" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Left Steps,Left Wall,Right Steps,Right Wall" centrex="525.170471" centrey="400.719116" centreDefined="0" centreMinx="385" centreMiny="357" centreMaxx="665" centreMaxy="443"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">

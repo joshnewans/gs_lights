@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2025.12</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Joy to the World</song>
+    <artist>Pentatonix</artist>
+    <album>That&amp;apos;s Christmas To Me (Deluxe Edition)</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/rayandalice/Downloads/joy_to_the_world.mp3</mediaFile>
+    <sequenceDuration>139.736</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=12-15x15 Bold,E_FONTPICKER_Text_Font='gill sans' utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=Joy,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Thin,E_FONTPICKER_Text_Font='gill sans' 12 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=to,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Thin,E_FONTPICKER_Text_Font='gill sans' 12 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=the,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=12-15x15 Bold,E_FONTPICKER_Text_Font='gill sans' utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=world!,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Thin,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font='gill sans' 12 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=to,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=10-12x12 Thin,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font='gill sans' 12 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=the,E_TEXTCTRL_Text_Speed=6</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=320,E_SLIDER_Pinwheel_Arms=10,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=0,E_SLIDER_Pinwheel_Twist=-65</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="model" name="House" visible="1"/>
+    <Element collapsed="0" type="model" name="House-Verticals" visible="0"/>
+    <Element collapsed="0" type="model" name="House-Windows" visible="0"/>
+    <Element collapsed="0" type="model" name="House-Roof" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof Matrix" visible="0"/>
+    <Element collapsed="0" type="model" name="House-Roof-Outline" visible="0"/>
+    <Element collapsed="0" type="model" name="Window L1" visible="0"/>
+    <Element collapsed="0" type="model" name="Window L2" visible="0"/>
+    <Element collapsed="0" type="model" name="Window L3" visible="0"/>
+    <Element collapsed="0" type="model" name="Window R1" visible="0"/>
+    <Element collapsed="0" type="model" name="Window R2" visible="0"/>
+    <Element collapsed="0" type="model" name="Window R3" visible="0"/>
+    <Element collapsed="0" type="model" name="Left Steps" visible="0"/>
+    <Element collapsed="0" type="model" name="Left Wall" visible="0"/>
+    <Element collapsed="0" type="model" name="Right Steps" visible="0"/>
+    <Element collapsed="0" type="model" name="Right Wall" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="model" name="House">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House-Verticals">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House-Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House-Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof Matrix">
+      <EffectLayer>
+        <Effect ref="0" name="Text" startTime="250" endTime="900" palette="0"/>
+        <Effect ref="1" name="Text" id="1" startTime="900" endTime="1350" palette="0"/>
+        <Effect ref="2" name="Text" id="2" startTime="1350" endTime="1550" palette="0"/>
+        <Effect ref="3" name="Text" id="3" startTime="1550" endTime="2200" palette="0"/>
+        <Effect ref="0" name="Text" id="4" startTime="5350" endTime="6000" palette="0"/>
+        <Effect ref="4" name="Text" id="5" startTime="6000" endTime="6450" palette="0"/>
+        <Effect ref="5" name="Text" id="6" startTime="6450" endTime="6650" palette="0"/>
+        <Effect ref="3" name="Text" id="7" startTime="6650" endTime="7300" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="House-Roof-Outline">
+      <EffectLayer>
+        <Effect ref="6" name="Pinwheel" startTime="1550" endTime="4050" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Window L1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window L2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window L3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window R2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Left Steps">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Left Wall">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Right Steps">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Right Wall">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

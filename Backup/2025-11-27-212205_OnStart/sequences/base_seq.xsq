@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2025.12.1</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_Fade_Type=None,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=3,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=69,E_SLIDER_Twinkle_Steps=30</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_CHECKBOX_Fan_Scale=1,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=0,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=635</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="16" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Roof Loop" visible="1"/>
+    <Element collapsed="0" type="model" name="Verticals" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof L" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof R" visible="1"/>
+    <Element collapsed="0" type="model" name="Left Wall" visible="1"/>
+    <Element collapsed="0" type="model" name="Window L3" visible="1"/>
+    <Element collapsed="0" type="model" name="Window L2" visible="1"/>
+    <Element collapsed="0" type="model" name="Left Steps" visible="1"/>
+    <Element collapsed="0" type="model" name="Window L1" visible="1"/>
+    <Element collapsed="0" type="model" name="Right Steps" visible="1"/>
+    <Element collapsed="0" type="model" name="Window R1" visible="1"/>
+    <Element collapsed="0" type="model" name="Window R2" visible="1"/>
+    <Element collapsed="0" type="model" name="Window R3" visible="1"/>
+    <Element collapsed="0" type="model" name="Right Wall" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof Loop">
+      <EffectLayer>
+        <Effect ref="0" name="SingleStrand" startTime="0" endTime="7550" palette="0"/>
+        <Effect ref="1" name="Marquee" id="1" startTime="7550" endTime="15050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Verticals">
+      <EffectLayer>
+        <Effect ref="2" name="Twinkle" selected="1" startTime="0" endTime="14950" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer>
+        <Effect ref="3" name="Butterfly" startTime="0" endTime="15050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof Matrix">
+      <EffectLayer>
+        <Effect ref="4" name="Fan" startTime="0" endTime="15050" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Left Wall">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window L3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window L2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Left Steps">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window L1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Right Steps">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window R2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Right Wall">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

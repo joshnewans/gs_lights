@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" parm2="643" Dir="R" name="Roof L" WorldPosX="460.1968" WorldPosY="531.5510" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="-0.001129,-0.859009,0.000000,-80.653564,-0.545593,0.000000,-80.653564,-77.846771,0.000000,22.582581,-78.350342,0.000000,22.915833,-92.716919,0.000000,74.704193,-92.853760,0.000000,74.542267,-78.493317,0.000000" cPointData="" versionNumber="7" StartChannel="613">
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" parm2="643" Dir="R" name="Roof L" WorldPosX="460.1968" WorldPosY="531.5510" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="-0.001129,-0.859009,0.000000,-80.653564,-0.545593,0.000000,-80.653564,-77.846771,0.000000,22.582581,-78.350342,0.000000,22.915833,-92.716919,0.000000,74.704193,-92.853760,0.000000,74.542267,-78.493317,0.000000" cPointData="" versionNumber="7" StartChannel="307">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" name="Left Steps" parm2="42" WorldPosX="488.9877" WorldPosY="432.3824" WorldPosZ="0.0000" X2="0.909241" Y2="-56.678528" Z2="0.000000" versionNumber="7" StartChannel="1">
@@ -40,10 +40,10 @@
     <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" LayoutGroup="Default" Controller="No Controller" name="Window R3" parm1="22" parm2="32" parm3="22" WorldPosX="634.0200" WorldPosY="403.7990" WorldPosZ="0.0000" ScaleX="0.8368" ScaleY="1.0279" ScaleZ="0.0435" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="15598">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" parm2="60" name="Right Wall" WorldPosX="665.0853" WorldPosY="362.0646" WorldPosZ="0.0000" X2="-0.606140" Y2="81.835419" Z2="0.000000" versionNumber="7" StartChannel="433">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" parm2="60" name="Right Wall" WorldPosX="665.0853" WorldPosY="362.0646" WorldPosZ="0.0000" X2="-0.606140" Y2="81.835419" Z2="0.000000" versionNumber="7" StartChannel="2362">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" name="Right Steps" parm2="42" WorldPosX="537.4827" WorldPosY="376.6131" WorldPosZ="0.0000" X2="-0.303101" Y2="55.769348" Z2="0.000000" versionNumber="7" StartChannel="307">
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" name="Right Steps" parm2="42" WorldPosX="537.4827" WorldPosY="376.6131" WorldPosZ="0.0000" X2="-0.303101" Y2="55.769348" Z2="0.000000" versionNumber="7" StartChannel="2236">
       <ControllerConnection Protocol="ws2811"/>
     </model>
   </models>
@@ -54,11 +54,9 @@
   <views/>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Window L1,Window L2,Window L3,Window R1,Window R2,Window R3" name="House-Windows" centrex="519.614197" centrey="404.933197" centreDefined="0" centreMinx="395" centreMiny="385" centreMaxx="644" centreMaxy="423"/>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Left Steps,Left Wall,Right Steps,Right Wall" name="House-Verticals" centrex="525.170471" centrey="400.719116" centreDefined="0" centreMinx="385" centreMiny="357" centreMaxx="665" centreMaxy="443"/>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="House" models=",House-Verticals,House-Windows,House-Roof" centrex="522.314270" centrey="444.244080" centreDefined="0" centreMinx="379" centreMiny="357" centreMaxx="665" centreMaxy="530"/>
-    <modelGroup selected="0" name="House-Roof" layout="minimalGrid" GridSize="400" LayoutGroup="Default" centrex="520.917480" centrey="484.839722" centreDefined="0" centreMinx="379" centreMiny="438" centreMaxx="662" centreMaxy="530" models=",House-Roof-Outline"/>
-    <modelGroup selected="0" name="House-Roof-Outline" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Roof L,Roof R" centrex="520.917480" centrey="484.839722" centreDefined="0" centreMinx="379" centreMiny="438" centreMaxx="662" centreMaxy="530"/>
+    <modelGroup selected="0" name="Roof Loop" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Roof L,Roof R" centrex="520.917480" centrey="484.839722" centreDefined="0" centreMinx="379" centreMiny="438" centreMaxx="662" centreMaxy="530"/>
+    <modelGroup selected="0" name="Windows" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Window L1,Window L2,Window L3,Window R1,Window R2,Window R3" centrex="519.614197" centrey="404.933197" centreDefined="0" centreMinx="395" centreMiny="385" centreMaxx="644" centreMaxy="423"/>
+    <modelGroup selected="0" name="Verticals" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Left Steps,Left Wall,Right Steps,Right Wall" centrex="525.170471" centrey="400.719116" centreDefined="0" centreMinx="385" centreMiny="357" centreMaxx="665" centreMaxy="443"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">

@@ -82,10 +82,6 @@
     <Effect>E_CHECKBOX_Shape_FadeAway=1,E_CHECKBOX_Shape_FireTiming=0,E_CHECKBOX_Shape_HoldColour=1,E_CHECKBOX_Shape_RandomInitial=1,E_CHECKBOX_Shape_RandomLocation=1,E_CHECKBOX_Shape_UseMusic=0,E_CHECKBOX_Shapes_RandomMovement=0,E_CHOICE_Shape_ObjectToDraw=Circle,E_SLIDER_Shape_Growth=10,E_SLIDER_Shape_Lifetime=5,E_SLIDER_Shape_StartSize=1,E_SLIDER_Shape_Thickness=1,E_SLIDER_Shapes_Direction=90,E_SLIDER_Shapes_Velocity=0,E_TEXTCTRL_Shape_Count=5,E_TEXTCTRL_Shapes_Direction=90,E_TEXTCTRL_Shapes_Velocity=0</Effect>
     <Effect>E_CHECKBOX_Shape_FadeAway=1,E_CHECKBOX_Shape_FireTiming=0,E_CHECKBOX_Shape_HoldColour=1,E_CHECKBOX_Shape_RandomInitial=0,E_CHECKBOX_Shape_RandomLocation=0,E_CHECKBOX_Shape_UseMusic=0,E_CHECKBOX_Shapes_RandomMovement=0,E_CHOICE_Shape_ObjectToDraw=Crucifix,E_SLIDER_Shape_CentreX=50,E_SLIDER_Shape_CentreY=66,E_SLIDER_Shape_Growth=0,E_SLIDER_Shape_Lifetime=100,E_SLIDER_Shape_Rotation=0,E_SLIDER_Shape_StartSize=44,E_SLIDER_Shape_Thickness=1,E_SLIDER_Shapes_Direction=0,E_SLIDER_Shapes_Velocity=0,E_TEXTCTRL_Shape_Count=1,E_TEXTCTRL_Shapes_Direction=0,E_TEXTCTRL_Shapes_Velocity=0</Effect>
     <Effect>E_CHECKBOX_Shape_FadeAway=1,E_CHECKBOX_Shape_FireTiming=0,E_CHECKBOX_Shape_HoldColour=1,E_CHECKBOX_Shape_RandomInitial=1,E_CHECKBOX_Shape_RandomLocation=1,E_CHECKBOX_Shape_UseMusic=0,E_CHECKBOX_Shapes_RandomMovement=0,E_CHOICE_Shape_ObjectToDraw=Heart,E_SLIDER_Shape_Growth=9,E_SLIDER_Shape_Lifetime=5,E_SLIDER_Shape_Rotation=0,E_SLIDER_Shape_StartSize=12,E_SLIDER_Shape_Thickness=1,E_SLIDER_Shapes_Direction=90,E_SLIDER_Shapes_Velocity=0,E_TEXTCTRL_Shape_Count=5,E_TEXTCTRL_Shapes_Direction=90,E_TEXTCTRL_Shapes_Velocity=0</Effect>
-    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=helvetica 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=Joy,E_TEXTCTRL_Text_Speed=11</Effect>
-    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=helvetica 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=to,E_TEXTCTRL_Text_Speed=10</Effect>
-    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=helvetica 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=the,E_TEXTCTRL_Text_Speed=10</Effect>
-    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=helvetica 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=world!,E_TEXTCTRL_Text_Speed=10</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=42</Effect>
   </EffectDB>
   <DataLayers>
@@ -385,7 +381,7 @@
         <Effect ref="15" name="Meteors" id="9" startTime="114000" endTime="119100" palette="9"/>
         <Effect ref="16" name="Ripple" id="10" startTime="119100" endTime="124250" palette="3"/>
         <Effect ref="17" name="Meteors" id="11" startTime="126750" endTime="129250" palette="9"/>
-        <Effect ref="18" name="Curtain" selected="1" id="12" startTime="131750" endTime="134300" palette="3"/>
+        <Effect ref="18" name="Curtain" id="12" startTime="131750" endTime="134300" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="House-Roof">
@@ -555,15 +551,15 @@
         <Effect ref="30" name="Text" id="22" startTime="90450" endTime="91950" palette="18"/>
         <Effect ref="36" name="Shape" id="23" startTime="93800" endTime="98200" palette="11"/>
         <Effect ref="37" name="Shape" id="24" startTime="108950" endTime="114000" palette="3"/>
-        <Effect ref="16" name="Ripple" id="26" startTime="119100" endTime="124250" palette="3"/>
-        <Effect ref="38" name="Text" id="27" startTime="124250" endTime="124600" palette="19"/>
-        <Effect ref="39" name="Text" id="28" startTime="124600" endTime="125000" palette="19"/>
-        <Effect ref="40" name="Text" id="29" startTime="125000" endTime="125200" palette="19"/>
-        <Effect ref="41" name="Text" id="30" startTime="125200" endTime="126750" palette="19"/>
-        <Effect ref="38" name="Text" id="31" startTime="129250" endTime="129600" palette="9"/>
-        <Effect ref="39" name="Text" id="32" startTime="129600" endTime="130000" palette="9"/>
-        <Effect ref="40" name="Text" id="33" startTime="130000" endTime="130200" palette="9"/>
-        <Effect ref="41" name="Text" id="34" startTime="130200" endTime="131750" palette="9"/>
+        <Effect ref="16" name="Ripple" id="25" startTime="119100" endTime="124250" palette="3"/>
+        <Effect ref="26" name="Text" id="26" startTime="124250" endTime="124600" palette="19"/>
+        <Effect ref="27" name="Text" id="27" startTime="124600" endTime="125000" palette="19"/>
+        <Effect ref="28" name="Text" id="28" startTime="125000" endTime="125200" palette="19"/>
+        <Effect ref="29" name="Text" id="29" startTime="125200" endTime="126750" palette="19"/>
+        <Effect ref="26" name="Text" id="30" startTime="129250" endTime="129600" palette="9"/>
+        <Effect ref="27" name="Text" id="31" startTime="129600" endTime="130000" palette="9"/>
+        <Effect ref="28" name="Text" id="32" startTime="130000" endTime="130200" palette="9"/>
+        <Effect ref="29" name="Text" id="33" startTime="130200" endTime="131750" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Window R1">
@@ -599,7 +595,7 @@
     </Element>
     <Element type="model" name="Window R3">
       <EffectLayer>
-        <Effect ref="42" name="On" startTime="9500" endTime="9800" palette="21"/>
+        <Effect ref="38" name="On" startTime="9500" endTime="9800" palette="21"/>
         <Effect ref="22" name="On" id="1" startTime="9800" endTime="10450" palette="12"/>
         <Effect ref="23" name="On" id="2" startTime="31000" endTime="31450" palette="0"/>
         <Effect ref="23" name="On" id="3" startTime="35100" endTime="35450" palette="0"/>

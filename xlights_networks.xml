@@ -13,5 +13,11 @@
     <network BaudRate="10" NetworkType="E131" MaxChannels="510"/>
     <network BaudRate="11" NetworkType="E131" MaxChannels="510"/>
     <network BaudRate="12" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="13" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="14" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="15" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="16" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="17" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="18" NetworkType="E131" MaxChannels="510"/>
   </Controller>
 </Networks>

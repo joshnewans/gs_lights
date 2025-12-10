@@ -54,8 +54,9 @@
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Window L1,Window L2,Window L3,Window R1,Window R2,Window R3" name="House-Windows" centrex="519.614197" centrey="404.933197" centreDefined="0" centreMinx="395" centreMiny="385" centreMaxx="644" centreMaxy="423"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Left Steps,Left Wall,Right Steps,Right Wall" name="House-Verticals" centrex="525.170471" centrey="400.719116" centreDefined="0" centreMinx="385" centreMiny="357" centreMaxx="665" centreMaxy="443"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="House" models=",House-Verticals,House-Windows,House-Roof" centrex="522.314270" centrey="444.244080" centreDefined="0" centreMinx="379" centreMiny="357" centreMaxx="665" centreMaxy="530"/>
-    <modelGroup selected="0" name="House-Roof" layout="minimalGrid" GridSize="400" LayoutGroup="Default" centrex="520.917480" centrey="484.839722" centreDefined="0" centreMinx="379" centreMiny="438" centreMaxx="662" centreMaxy="530" models=",House-Roof-Outline"/>
+    <modelGroup selected="0" name="House-Roof" layout="minimalGrid" GridSize="400" LayoutGroup="Default" centrex="520.917480" centrey="484.839722" centreDefined="0" centreMinx="379" centreMiny="438" centreMaxx="662" centreMaxy="530" models=",House-Roof-Outline,Roof Matrix"/>
     <modelGroup selected="0" name="House-Roof-Outline" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Roof L,Roof R" centrex="520.917480" centrey="484.839722" centreDefined="0" centreMinx="379" centreMiny="438" centreMaxx="662" centreMaxy="530"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="House-No-Matrix" models="House-Roof-Outline,House-Verticals,House-Windows"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">

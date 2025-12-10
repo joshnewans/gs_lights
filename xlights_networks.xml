@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Networks computer="APACLFNG1SB4" GlobalFPPProxy="" GlobalForceLocalIP="" AutoUpdateFromBase="0" BaseShowDir=""/>
+<Networks computer="APACLFNG1SB4" GlobalFPPProxy="" GlobalForceLocalIP="" AutoUpdateFromBase="0" BaseShowDir="">
+  <Controller Id="1" Name="HouseBaldrick1" Description="" Type="Ethernet" Vendor="ILightThat" Model="Baldrick8" Variant="" AutoSize="1" FromBase="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" Monitor="1" IP="" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network BaudRate="1" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="2" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="3" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="4" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="5" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="6" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="7" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="8" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="9" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="10" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="11" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="12" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+</Networks>

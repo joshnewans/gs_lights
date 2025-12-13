@@ -5,27 +5,27 @@
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
-    <song>Silent Night, Holy Night</song>
-    <artist>Cedarmont Kids</artist>
-    <album>Christmas Carols</album>
+    <song></song>
+    <artist></artist>
+    <album></album>
     <MusicURL></MusicURL>
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>C:\Users\PALMERR1\OneDrive - Amentum (CMS)\Documents\GitHub\gs_lights\songs\silent_night.mp3</mediaFile>
-    <sequenceDuration>146.702</sequenceDuration>
+    <mediaFile>C:\Users\PALMERR1\OneDrive - Amentum (CMS)\Documents\GitHub\gs_lights\songs\Tell The World_Christmas_master2.mp3</mediaFile>
+    <sequenceDuration>206.808</sequenceDuration>
     <imageDir></imageDir>
   </head>
   <nextid>1</nextid>
+  <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#80FF80,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#80FFFF,C_BUTTON_Palette8=#FF80FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#80FF80,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#80FFFF,C_BUTTON_Palette8=#FF80FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette8=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=3,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=5,E_SLIDER_Meteors_Swirl_Intensity=0,E_SLIDER_Meteors_WamupFrames=0,T_CHECKBOX_Canvas=1</Effect>
-    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=3,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=1,E_SLIDER_Meteors_Swirl_Intensity=0,E_SLIDER_Meteors_WamupFrames=0,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Type=Spectrogram,E_SLIDER_VUMeter_Bars=38,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=-20,T_CHECKBOX_Canvas=1</Effect>
   </EffectDB>
   <DataLayers>
-    <DataLayer lor_params="6357096" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+    <DataLayer lor_params="6815843" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
@@ -60,7 +60,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="House">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="VU Meter" selected="1" startTime="200" endTime="205000" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="House-Roof">
       <EffectLayer/>
@@ -69,9 +71,7 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="House-No-Matrix">
-      <EffectLayer>
-        <Effect ref="0" name="Meteors" startTime="1800" endTime="144000" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Roof L">
       <EffectLayer/>
@@ -110,9 +110,7 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Roof Matrix">
-      <EffectLayer>
-        <Effect ref="1" name="Meteors" selected="1" startTime="1600" endTime="143800" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

@@ -5,27 +5,27 @@
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
-    <song>Silent Night, Holy Night</song>
-    <artist>Cedarmont Kids</artist>
-    <album>Christmas Carols</album>
+    <song>Reserved Rd 8</song>
+    <artist></artist>
+    <album></album>
     <MusicURL></MusicURL>
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>C:\Users\PALMERR1\OneDrive - Amentum (CMS)\Documents\GitHub\gs_lights\songs\silent_night.mp3</mediaFile>
-    <sequenceDuration>146.702</sequenceDuration>
+    <mediaFile>C:\Users\PALMERR1\OneDrive - Amentum (CMS)\Documents\GitHub\gs_lights\songs\Christmas Invite.mp3</mediaFile>
+    <sequenceDuration>19.872</sequenceDuration>
     <imageDir></imageDir>
   </head>
   <nextid>1</nextid>
+  <Jukebox/>
   <ColorPalettes>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#80FF80,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#80FFFF,C_BUTTON_Palette8=#FF80FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#80FF80,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#80FFFF,C_BUTTON_Palette8=#FF80FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette8=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=3,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=5,E_SLIDER_Meteors_Swirl_Intensity=0,E_SLIDER_Meteors_WamupFrames=0,T_CHECKBOX_Canvas=1</Effect>
-    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=3,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=1,E_SLIDER_Meteors_Swirl_Intensity=0,E_SLIDER_Meteors_WamupFrames=0,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHECKBOX_BottomBarrier=1,E_CHECKBOX_Enabled2=0,E_CHECKBOX_Enabled3=0,E_CHECKBOX_Enabled4=0,E_CHECKBOX_FlowMusic1=0,E_CHECKBOX_HoldColor=1,E_CHECKBOX_LeftBarrier=0,E_CHECKBOX_MixColors=0,E_CHECKBOX_RightBarrier=0,E_CHECKBOX_TopBarrier=0,E_CHOICE_ParticleType=Water,E_NOTEBOOK1=1,E_TEXTCTRL_Despeckle=0,E_TEXTCTRL_Direction1=78,E_TEXTCTRL_Flow1=100,E_TEXTCTRL_LifeTime=1000,E_TEXTCTRL_Liquid_Gravity=10.0,E_TEXTCTRL_Liquid_GravityAngle=49,E_TEXTCTRL_Liquid_SourceSize1=0,E_TEXTCTRL_Size=500,E_TEXTCTRL_Velocity1=100,E_TEXTCTRL_WarmUpFrames=0,E_TEXTCTRL_X1=50,E_TEXTCTRL_Y1=100,T_CHECKBOX_Canvas=1</Effect>
   </EffectDB>
   <DataLayers>
-    <DataLayer lor_params="6357096" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+    <DataLayer lor_params="7602280" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
@@ -60,7 +60,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="House">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="Liquid" selected="1" startTime="300" endTime="20000" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="House-Roof">
       <EffectLayer/>
@@ -69,9 +71,7 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="House-No-Matrix">
-      <EffectLayer>
-        <Effect ref="0" name="Meteors" startTime="1800" endTime="144000" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="Roof L">
       <EffectLayer/>
@@ -110,9 +110,7 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Roof Matrix">
-      <EffectLayer>
-        <Effect ref="1" name="Meteors" selected="1" startTime="1600" endTime="143800" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

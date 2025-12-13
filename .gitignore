@@ -2,4 +2,3 @@
 *.bak
 **/rendercache/
 Backup/
-*.fseq

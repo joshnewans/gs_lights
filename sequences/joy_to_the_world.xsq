@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2025.12</version>
+    <version>2025.13</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -76,7 +76,6 @@
     <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=helvetica 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=world!,E_TEXTCTRL_Text_Speed=10</Effect>
     <Effect>E_CHECKBOX_FIRETIMING=1,E_CHECKBOX_Fireworks_Gravity=1,E_CHECKBOX_Fireworks_HoldColour=1,E_CHECKBOX_Fireworks_UseMusic=1,E_CHOICE_FIRETIMINGTRACK=Notes,E_SLIDER_Fireworks_Count=37,E_SLIDER_Fireworks_Fade=82,E_SLIDER_Fireworks_Sensitivity=86,E_SLIDER_Fireworks_Velocity=6,E_SLIDER_Fireworks_XLocation=-1,E_SLIDER_Fireworks_XVelocity=0,E_SLIDER_Fireworks_YLocation=-1,E_SLIDER_Fireworks_YVelocity=0,E_TEXTCTRL_Fireworks_XLocation=-1,E_TEXTCTRL_Fireworks_XVelocity=0,E_TEXTCTRL_Fireworks_YLocation=-1,E_TEXTCTRL_Fireworks_YVelocity=0</Effect>
     <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=helvetica 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=JOY!,E_TEXTCTRL_Text_Speed=11</Effect>
-    <Effect>E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=helvetica 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=world!,E_TEXTCTRL_Text_Speed=10</Effect>
     <Effect>E_CHECKBOX_Shape_FadeAway=1,E_CHECKBOX_Shape_FireTiming=0,E_CHECKBOX_Shape_HoldColour=1,E_CHECKBOX_Shape_RandomInitial=1,E_CHECKBOX_Shape_RandomLocation=1,E_CHECKBOX_Shape_UseMusic=0,E_CHECKBOX_Shapes_RandomMovement=0,E_CHOICE_Shape_ObjectToDraw=Heart,E_SLIDER_Shape_Growth=10,E_SLIDER_Shape_Lifetime=5,E_SLIDER_Shape_Rotation=0,E_SLIDER_Shape_StartSize=1,E_SLIDER_Shape_Thickness=1,E_SLIDER_Shapes_Direction=90,E_SLIDER_Shapes_Velocity=0,E_TEXTCTRL_Shape_Count=5,E_TEXTCTRL_Shapes_Direction=90,E_TEXTCTRL_Shapes_Velocity=0</Effect>
     <Effect>E_CHECKBOX_Shape_FadeAway=1,E_CHECKBOX_Shape_FireTiming=0,E_CHECKBOX_Shape_HoldColour=1,E_CHECKBOX_Shape_RandomInitial=0,E_CHECKBOX_Shape_RandomLocation=0,E_CHECKBOX_Shape_UseMusic=0,E_CHECKBOX_Shapes_RandomMovement=0,E_CHOICE_Shape_ObjectToDraw=Crucifix,E_SLIDER_Shape_CentreX=50,E_SLIDER_Shape_CentreY=66,E_SLIDER_Shape_Growth=1,E_SLIDER_Shape_Lifetime=100,E_SLIDER_Shape_Rotation=0,E_SLIDER_Shape_StartSize=22,E_SLIDER_Shape_Thickness=1,E_SLIDER_Shapes_Direction=0,E_SLIDER_Shapes_Velocity=0,E_TEXTCTRL_Shape_Count=1,E_TEXTCTRL_Shapes_Direction=0,E_TEXTCTRL_Shapes_Velocity=0</Effect>
     <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=1,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=1,E_SLIDER_Meteors_Swirl_Intensity=0,E_SLIDER_Meteors_WamupFrames=64</Effect>
@@ -378,12 +377,12 @@
       <EffectLayer>
         <Effect ref="9" name="Curtain" startTime="18000" endTime="20550" palette="5"/>
         <Effect ref="10" name="Fan" id="1" startTime="20550" endTime="25600" palette="5"/>
-        <Effect ref="11" name="Curtain" id="6" startTime="66000" endTime="69800" palette="8"/>
-        <Effect ref="4" name="Ripple" id="7" startTime="91300" endTime="93800" palette="4"/>
-        <Effect ref="4" name="Ripple" id="8" startTime="106450" endTime="108950" palette="4"/>
-        <Effect ref="12" name="Ripple" id="9" startTime="119100" endTime="124250" palette="2"/>
-        <Effect ref="13" name="Meteors" id="10" startTime="126750" endTime="129250" palette="9"/>
-        <Effect ref="14" name="Curtain" id="11" startTime="131750" endTime="134300" palette="3"/>
+        <Effect ref="11" name="Curtain" id="2" startTime="66000" endTime="69800" palette="8"/>
+        <Effect ref="4" name="Ripple" id="3" startTime="91300" endTime="93800" palette="4"/>
+        <Effect ref="4" name="Ripple" id="4" startTime="106450" endTime="108950" palette="4"/>
+        <Effect ref="12" name="Ripple" id="5" startTime="119100" endTime="124250" palette="2"/>
+        <Effect ref="13" name="Meteors" id="6" startTime="126750" endTime="129250" palette="9"/>
+        <Effect ref="14" name="Curtain" id="7" startTime="131750" endTime="134300" palette="3"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="House-No-Matrix">
@@ -395,8 +394,8 @@
     </Element>
     <Element type="model" name="House-Roof">
       <EffectLayer>
-        <Effect ref="3" name="Spirals" id="1" startTime="96350" endTime="101400" palette="3"/>
-        <Effect ref="18" name="SingleStrand" id="2" startTime="103900" endTime="106450" palette="9"/>
+        <Effect ref="3" name="Spirals" startTime="96350" endTime="101400" palette="3"/>
+        <Effect ref="18" name="SingleStrand" id="1" startTime="103900" endTime="106450" palette="9"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="House-Roof-Outline">
@@ -414,7 +413,7 @@
         <Effect ref="19" name="Pinwheel" id="10" startTime="60950" endTime="66000" palette="6"/>
         <Effect ref="2" name="Pinwheel" id="11" startTime="71100" endTime="83650" palette="2"/>
         <Effect ref="5" name="Butterfly" id="12" startTime="83700" endTime="86250" palette="3"/>
-        <Effect ref="5" name="Butterfly" selected="1" id="13" startTime="88750" endTime="91250" palette="5"/>
+        <Effect ref="5" name="Butterfly" id="13" startTime="88750" endTime="91250" palette="5"/>
         <Effect ref="5" name="Butterfly" id="14" startTime="108950" endTime="114000" palette="3"/>
         <Effect ref="5" name="Butterfly" id="15" startTime="124250" endTime="126750" palette="3"/>
         <Effect ref="5" name="Butterfly" id="16" startTime="129250" endTime="131850" palette="3"/>
@@ -560,17 +559,17 @@
         <Effect ref="26" name="Text" id="15" startTime="40750" endTime="41350" palette="9"/>
         <Effect ref="27" name="Text" id="16" startTime="41350" endTime="41800" palette="9"/>
         <Effect ref="28" name="Text" id="17" startTime="41800" endTime="42000" palette="9"/>
-        <Effect ref="32" name="Text" id="18" startTime="42000" endTime="45800" palette="9"/>
-        <Effect ref="33" name="Shape" id="19" startTime="45800" endTime="47950" palette="12"/>
-        <Effect ref="34" name="Shape" id="20" startTime="48350" endTime="50500" palette="1"/>
-        <Effect ref="35" name="Meteors" id="21" startTime="50850" endTime="55900" palette="6"/>
-        <Effect ref="36" name="VU Meter" id="22" startTime="55900" endTime="60900" palette="2"/>
-        <Effect ref="37" name="Shape" id="23" startTime="73600" endTime="76100" palette="3"/>
-        <Effect ref="38" name="Shape" id="24" startTime="78650" endTime="81150" palette="3"/>
-        <Effect ref="39" name="Text" id="25" startTime="90450" endTime="91950" palette="18"/>
-        <Effect ref="40" name="Shape" id="26" startTime="93800" endTime="98200" palette="12"/>
-        <Effect ref="41" name="Shape" id="27" startTime="108950" endTime="114000" palette="3"/>
-        <Effect ref="42" name="Meteors" id="28" startTime="114000" endTime="119100" palette="9"/>
+        <Effect ref="29" name="Text" id="18" startTime="42000" endTime="45800" palette="9"/>
+        <Effect ref="32" name="Shape" id="19" startTime="45800" endTime="47950" palette="12"/>
+        <Effect ref="33" name="Shape" id="20" startTime="48350" endTime="50500" palette="1"/>
+        <Effect ref="34" name="Meteors" id="21" startTime="50850" endTime="55900" palette="6"/>
+        <Effect ref="35" name="VU Meter" id="22" startTime="55900" endTime="60900" palette="2"/>
+        <Effect ref="36" name="Shape" id="23" startTime="73600" endTime="76100" palette="3"/>
+        <Effect ref="37" name="Shape" id="24" startTime="78650" endTime="81150" palette="3"/>
+        <Effect ref="38" name="Text" id="25" startTime="90450" endTime="91950" palette="18"/>
+        <Effect ref="39" name="Shape" id="26" startTime="93800" endTime="98200" palette="12"/>
+        <Effect ref="40" name="Shape" id="27" startTime="108950" endTime="114000" palette="3"/>
+        <Effect ref="41" name="Meteors" id="28" startTime="114000" endTime="119100" palette="9"/>
         <Effect ref="26" name="Text" id="29" startTime="124250" endTime="124600" palette="19"/>
         <Effect ref="27" name="Text" id="30" startTime="124600" endTime="125000" palette="19"/>
         <Effect ref="28" name="Text" id="31" startTime="125000" endTime="125200" palette="19"/>
@@ -614,7 +613,7 @@
     </Element>
     <Element type="model" name="Window R3">
       <EffectLayer>
-        <Effect ref="43" name="On" startTime="9500" endTime="9800" palette="21"/>
+        <Effect ref="42" name="On" startTime="9500" endTime="9800" palette="21"/>
         <Effect ref="23" name="On" id="1" startTime="9800" endTime="10450" palette="11"/>
         <Effect ref="21" name="On" id="2" startTime="31000" endTime="31450" palette="0"/>
         <Effect ref="21" name="On" id="3" startTime="35100" endTime="35450" palette="0"/>
